@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.encabezado{
+    background-color:black;
+}
+
+.brand img{
+    width: 100%;
+    height: 60px;
+}
+
+.encabezado nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 12px 20px;
+    display: block;
+    border-radius: 50px;
+}
+
+a:hover{
+    background-color: gray ;
+}
+
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado nav ul li ul{
+    position: absolute;
+    background-color: black;
+}
+
+.encabezado nav ul li ul li{
+    width: 180px;
+    position: relative;
+}
+
+.encabezado nav ul li ul li ul{
+    top: 0;
+    left: 180px;
+    position: absolute    
+}
+
+.encabezado nav ul li ul{
+    display: none;
+}
+
+.encabezado nav ul li:hover > ul{
+    display: block;
+}
+
+.hero img{
+    width: 100%;
+    height: 600px;
+}
+
+.informacion{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    background-color:white;
+    text-align: left;    
+}
+
+.informacion p{
+    color:black;
+    text-align: left;    
+}
+
+.caja{
+    margin-top: 30px;
+    width: 700px;
+    background-color: white;
+}
+
+.info{
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    color: aliceblue;
+}
+
+.info img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;    
+}
+
+.spaceal .yes{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+}
+
+.galeria{
+    margin-top: -0px;
+    text-align: center;
+    color: blue;
+    background-color: white;
+    justify-content: center;
+
+}
+
+.fotos{
+    margin-top: 30px;
+}
+
+.fotos ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.fotos li {
+    padding: 0px 2px 0px 2px;
+}
+
+.fotos img {
+    object-fit: cover;
+    width: 330px;
+    height: 200px;
+    border-style: inset;  
+}
+
+.ubicacion{
+    margin-top: 30px;
+    text-align: center;
+    color: blue;
+    background-color: white;
+    justify-content: center;
+    
+}
+
+.ubicacion .space{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+}
+
+.ubicacion iframe {
+    width: 100%;
+    height: 350px;    
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+    width: 300px;
+    background-color: white;        
+}
+
+.spaceol .no{
+    width: 100%;
+    height: 15px;
+    background-color: white;
+}
+
+footer{
+    width: 100%;
+    background-color: #202020;
+    color: white;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1{
+    max-width: 400px;
+}
+
+.column1 h1{
+    font-size: 22px;
+}
+
+.column p{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px; 
+}
+
+.column2{
+    max-width: 400px; 
+}
+
+.column2 h1{
+    font-size: 22px;
+}
+
+.column2 .row{
+    margin-top: 20px;
+    display: flex;  
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #c7c7c7;
+}
+
+.container-footer{
+    width: 100%;
+    background: #101010;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;    
+}
+
+.copyright{
+    text-decoration: none;
+    color: #c7c7c7;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+
+
+
+
+
+
+
+
+
